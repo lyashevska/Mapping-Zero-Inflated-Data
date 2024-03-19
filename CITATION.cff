@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Mapping Zero Inflated Data
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Olga
+    family-names: Lyashevska
+    email: olga.lyashevska@gmail.com
+    orcid: 'https://orcid.org/0000-0002-8686-8550'
+    affiliation: NIOZ
+  - given-names: Dick
+    name-particle: J
+    family-names: Brus
+    orcid: 'https://orcid.org/0000-0003-2194-4783'
+    affiliation: WUR
+  - given-names: Jaap
+    name-particle: van der
+    family-names: Meer
+    affiliation: NIOZ
+    orcid: 'https://orcid.org/0000-0003-4818-2408'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.33776
+repository-code: 'https://github.com/lyashevska/Mapping-Zero-Inflated-Data'
+abstract: >-
+  R Software to map species abundance when data are
+  zero-inflated and spatially correlated counts. A
+  zero-inflated Poisson mixture model is used to relate
+  counts to environmental covariates.
+keywords:
+  - Zero-Inflation
+  - 'Poisson '
+  - Mixture Model
+  - Count data
+license: Apache-2.0
+version: 1.0.0
+date-released: '2002-03-19'
